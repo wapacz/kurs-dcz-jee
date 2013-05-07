@@ -9,4 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+  	<servlet-name>Dispacher</servlet-name>
+  	<servlet-class>org.catcher.dcz.MyDispacher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Dispacher</servlet-name>
+  	<url-pattern>/dispach</url-pattern>
+  </servlet-mapping>
 </web-app>
