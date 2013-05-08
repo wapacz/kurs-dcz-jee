@@ -3,6 +3,7 @@ package org.catcher.dcz.model;
 import java.io.Serializable;
 
 public class User implements Serializable {
+	
 	private static final long serialVersionUID = -1744283516228245024L;
 	private String name;
 	private String surname;
